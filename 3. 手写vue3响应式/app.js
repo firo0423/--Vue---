@@ -62,3 +62,18 @@ console.log(total);
 console.log('---------------------------------------------------------');
 product.quantity = 3  //SET被调用了 quantity
 console.log(total);
+
+// ---------------------------------------------------------
+// GET被调用了 price
+// track触发了
+// GET被调用了 quantity
+// track触发了
+// 10
+// ---------------------------------------------------------
+// SET被调用了 quantity
+// trigger触发了
+// GET被调用了 price
+// track触发了
+// GET被调用了 quantity
+// track触发了
+// 15
