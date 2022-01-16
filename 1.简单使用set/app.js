@@ -1,3 +1,5 @@
+// 在Vue2 下Get钩子和Set钩子是被添加到各个属性之下的，所以后续设置完属性以后无法再次响应化 -> 对象下加内容无法响应化
+// 所以要添加响应属性要使用Vue.set(product, 'name','shoes')  
 const depsMap = new Map();
 
 // 追踪key值的变换，每一个key都有一个set来添加更新函数

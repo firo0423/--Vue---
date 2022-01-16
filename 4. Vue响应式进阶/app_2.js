@@ -121,7 +121,7 @@ console.log(
   `在更新total之后-应该13.5 = ${total} 售卖价格-应该4.5 = ${salePrice.value}`
 );
 console.log("---------------------------------------------------------");
-product.price = 10; //SET被调用了 price
+product.price = 10; //SET被调用了 
 console.log(
   `在更新total之后-应该27 = ${total} 售卖价格-应该9 = ${salePrice.value}`
 );
