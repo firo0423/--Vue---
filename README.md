@@ -1,7 +1,7 @@
 # --Vue---
 原视频网址 https://www.vuemastery.com/courses/vue-3-reactivity/ <br>
 根据视频学习自己手写Vue响应式原理，中间自己加了点注释看起来也更清晰 <br>
-```
+```js
 //-----------------------功能触发区-------------------------
 // computed 设置
 function computed(getter){
